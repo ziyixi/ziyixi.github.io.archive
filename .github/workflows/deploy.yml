@@ -15,6 +15,9 @@ jobs:
         uses: actions/setup-node@v2
       - name: run next command
         run: |
+          cd public/cv
+          wget https://github.com/ziyixi/cv/raw/master/cv.pdf -O cv.pdf
+          cd ../..
           yarn install
           yarn build
           yarn export
