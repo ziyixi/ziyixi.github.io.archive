@@ -15,6 +15,7 @@ jobs:
         uses: actions/setup-node@v2
       - name: run next command
         run: |
+          yarn install
           yarn build
           yarn export
       - name: deploy to github page
