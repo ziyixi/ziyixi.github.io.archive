@@ -31,6 +31,7 @@ export async function getStaticPaths() {
   );
   const paths = Object.keys(pages)
     .map((pageId) => `/${pageId}`)
+    .map((pageId) => pageId.replace(/\-/g, ''))
     .concat(notionInfo.projectIds);
 
   return {
