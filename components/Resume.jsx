@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Text, Button, Stack } from '@chakra-ui/react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import { SizeMe } from 'react-sizeme';
 
 function PdfViewer({ url, scale }) {
   const [numPages, setNumPages] = useState(null);
@@ -25,12 +26,20 @@ function PdfViewer({ url, scale }) {
 
   return (
     <>
-      <Document
-        file={url}
-        options={{ workerSrc: '/pdf.worker.js' }}
-        onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} scale={scale} renderTextLayer={false} />
-      </Document>
+      <SizeMe>
+        {({ size }) => (
+          <Document
+            file={url}
+            options={{ workerSrc: '/pdf.worker.js' }}
+            onLoadSuccess={onDocumentLoadSuccess}>
+            <Page
+              pageNumber={pageNumber}
+              width={size.width ? size.width : 1}
+              renderTextLayer={false}
+            />
+          </Document>
+        )}
+      </SizeMe>
       <Stack spacing={4} direction="row" align="center">
         <Text fontSize="xl">
           Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}

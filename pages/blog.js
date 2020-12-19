@@ -1,5 +1,4 @@
 import React from 'react';
-import { getPageTitle, getAllPagesInSpace } from 'notion-utils';
 import { NotionAPI } from 'notion-client';
 import { NotionRenderer } from 'react-notion-x';
 import notionInfo from '../data/notion';

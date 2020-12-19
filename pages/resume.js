@@ -1,4 +1,4 @@
-import { Heading, Icon, Stack, Link } from '@chakra-ui/react';
+import { Heading, Icon, Link, Wrap, WrapItem } from '@chakra-ui/react';
 import dynamic from 'next/dynamic';
 import GetAppIcon from '@material-ui/icons/GetApp';
 
@@ -13,12 +13,16 @@ function Resume() {
   return (
     <>
       <Heading mb="2rem">
-        <Stack spacing={4} direction="row" align="center">
-          <span role="image">👀 my resume</span>
-          <Link href={'cv/cv.pdf'}>
-            <Icon as={GetAppIcon} />
-          </Link>
-        </Stack>
+        <Wrap spacing={4}>
+          <WrapItem>
+            <span role="image">👀 my resume</span>
+          </WrapItem>
+          <WrapItem>
+            <Link href={'cv/cv.pdf'}>
+              <Icon as={GetAppIcon} />
+            </Link>
+          </WrapItem>
+        </Wrap>
       </Heading>
       <PdfViewer url={'cv/cv.pdf'} scale={1.5} />
     </>

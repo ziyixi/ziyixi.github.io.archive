@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import { Box, Button, Grid, Heading, Flex, Spacer, Divider } from '@chakra-ui/react';
+import { Box, Button, Heading, Flex, Spacer, Divider, Wrap, WrapItem } from '@chakra-ui/react';
 import navbarData from '../data/navbar';
 
 function Header() {
@@ -39,17 +39,19 @@ function Header() {
           </Box>
         </Link>
         <Spacer />
-        <Grid gap={2} templateColumns={`repeat(${navbarData.length}, 1fr)`}>
+        <Wrap spacing={2}>
           {navbarData.map((link) => (
-            <Link key={link.name} href={link.path} passHref>
-              <Box as="a">
-                <Button isFullWidth size="sm" {...menuBtnStyle(link.path)}>
-                  {link.name}
-                </Button>
-              </Box>
-            </Link>
+            <WrapItem key={link.name}>
+              <Link href={link.path} passHref>
+                <Box as="a">
+                  <Button isFullWidth size="sm" {...menuBtnStyle(link.path)}>
+                    {link.name}
+                  </Button>
+                </Box>
+              </Link>
+            </WrapItem>
           ))}
-        </Grid>
+        </Wrap>
       </Flex>
       <Divider />
     </>

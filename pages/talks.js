@@ -1,4 +1,4 @@
-import { Grid, GridItem, Box, Heading, Text, Tag, Divider, Button } from '@chakra-ui/react';
+import { Grid, GridItem, Box, Heading, Tag, Divider, Button } from '@chakra-ui/react';
 import { ChatIcon } from '@chakra-ui/icons';
 import talksData from '../data/talks';
 

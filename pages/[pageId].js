@@ -4,6 +4,7 @@ import { NotionAPI } from 'notion-client';
 import { NotionRenderer } from 'react-notion-x';
 import notionInfo from '../data/notion';
 import { useRouter } from 'next/router';
+import { Heading, Divider, Box } from '@chakra-ui/react';
 
 const notion = new NotionAPI();
 
@@ -56,9 +57,15 @@ export default function Blog({ recordMap }) {
     return null;
   }
 
+  const title = getPageTitle(recordMap);
+
   return (
     <>
-      <NotionRenderer recordMap={recordMap} fullPage={false} darkMode={false} />
+      <Heading>{title}</Heading>
+      <Divider />
+      <Box mt={8}>
+        <NotionRenderer recordMap={recordMap} fullPage={false} darkMode={false} />
+      </Box>
     </>
   );
 }

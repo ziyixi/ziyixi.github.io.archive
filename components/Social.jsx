@@ -1,4 +1,4 @@
-import { Grid, GridItem, Box } from '@chakra-ui/react';
+import { Grid, GridItem, Box, Wrap, WrapItem, Center } from '@chakra-ui/react';
 import { Icon, Flex, Spacer, Text, ExternalLinkIcon } from '@chakra-ui/react';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import SchoolIcon from '@material-ui/icons/School';
@@ -10,44 +10,34 @@ import Link from 'next/link';
 function Social() {
   return (
     <>
-      <Flex direction={['row', 'row']}>
-        <Grid gridTemplateColumns="repeat(5, 1fr)" gap={5}>
-          <GridItem key="github">
-            <Box w="50px" h="50px">
-              <a href="https://github.com/ziyixi" target="_blank" rel="noreferrer">
-                <Icon as={GitHubIcon} />
-              </a>
-            </Box>
-          </GridItem>
-          <GridItem key="scholar">
-            <Box w="50px" h="50px">
-              <a
-                href="https://scholar.google.com/citations?user=boNM4acAAAAJ&hl=en"
-                target="_blank"
-                rel="noreferrer">
-                <Icon as={SchoolIcon} />
-              </a>
-            </Box>
-          </GridItem>
-          <GridItem key="mail">
-            <Box w="50px" h="50px">
-              <a href="mailto:xiziyi@msu.edu" target="_blank" rel="noreferrer">
-                <Icon as={MailIcon} />
-              </a>
-            </Box>
-          </GridItem>
-          <GridItem key="phone">
-            <Box w="50px" h="50px">
-              <a href="tel:+1-517-505-0802" target="_blank" rel="noreferrer">
-                <Icon as={PhoneIcon} />
-              </a>
-            </Box>
-          </GridItem>
-          <GridItem key="space">
-            <Box w="50px" h="50px"></Box>
-          </GridItem>
-        </Grid>
-        <Box w="300px" h="50px">
+      <Wrap spacing={8}>
+        <WrapItem key="github">
+          <a href="https://github.com/ziyixi" target="_blank" rel="noreferrer">
+            <Icon as={GitHubIcon} />
+          </a>
+        </WrapItem>
+        <WrapItem key="scholar">
+          <a
+            href="https://scholar.google.com/citations?user=boNM4acAAAAJ&hl=en"
+            target="_blank"
+            rel="noreferrer">
+            <Icon as={SchoolIcon} />
+          </a>
+        </WrapItem>
+        <WrapItem key="mail">
+          <a href="mailto:xiziyi@msu.edu" target="_blank" rel="noreferrer">
+            <Icon as={MailIcon} />
+          </a>
+        </WrapItem>
+        <WrapItem key="phone">
+          <a href="tel:+1-517-505-0802" target="_blank" rel="noreferrer">
+            <Icon as={PhoneIcon} />
+          </a>
+        </WrapItem>
+        <WrapItem key="space">
+          <div></div>
+        </WrapItem>
+        <WrapItem key="footer">
           <div style={{ whiteSpace: 'nowrap' }}>
             <Text fontSize="sm">
               &copy; Ziyi Xi 2020, Build with{' '}
@@ -56,8 +46,8 @@ function Social() {
               </LinkUI>
             </Text>
           </div>
-        </Box>
-      </Flex>
+        </WrapItem>
+      </Wrap>
     </>
   );
 }

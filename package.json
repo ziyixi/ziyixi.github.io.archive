@@ -43,6 +43,7 @@
     "react-markdown": "^5.0.3",
     "react-notion-x": "^2.5.1",
     "react-pdf": "^5.1.0",
+    "react-sizeme": "^2.6.12",
     "remark-gfm": "^1.0.0",
     "spotify-web-api-node": "^5.0.0",
     "styled-jsx": "^3.3.1"
