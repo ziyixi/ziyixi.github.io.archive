@@ -1,13 +1,13 @@
 name: Build and Deploy personal website
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'
   push:
     branches:
       - master
 jobs:
   run:
-    runs-on: self-hosted
+    runs-on: macos-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
