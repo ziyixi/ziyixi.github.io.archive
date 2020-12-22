@@ -1,4 +1,4 @@
-name: Build and Deploy website
+name: Build and Deploy personal website
 on:
   schedule:
     - cron: '*/10 * * * *'
