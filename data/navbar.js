@@ -16,10 +16,6 @@ export default [
     path: '/talks',
   },
   {
-    name: 'Wiki',
-    path: '/wiki',
-  },
-  {
     name: 'Contacts',
     path: '/contacts',
   },
