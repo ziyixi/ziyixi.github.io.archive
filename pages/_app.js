@@ -5,7 +5,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 // core styles shared by all of react-notion-x (required)
-import 'react-notion-x/src/styles.css';
+// import 'react-notion-x/src/styles.css';
+import '../css/custome-styles.css';
 
 // used for code syntax highlighting (optional)
 import 'prismjs/themes/prism-tomorrow.css';
@@ -27,10 +28,7 @@ function MyApp({ Component, pageProps }) {
           key="og:title"
         />
         <meta http-Equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
-        />
+
         <meta
           name="keywords"
           content="coding, programming, seismology, high-performance computing"

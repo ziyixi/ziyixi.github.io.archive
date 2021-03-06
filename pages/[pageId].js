@@ -29,6 +29,9 @@ export async function getStaticPaths() {
     notionInfo.pageId,
     notionInfo.spaceId,
     notion.getPage.bind(notion),
+    {
+      traverseCollections: false
+    }
   );
   const paths = Object.keys(pages)
     .map((pageId) => `/${pageId}`)
@@ -61,7 +64,7 @@ export default function Blog({ recordMap }) {
 
   return (
     <>
-      <Heading>{title}</Heading>
+      <Heading style={{ 'text-align': 'center' }}>{title}</Heading>
       <Divider />
       <Box mt={8}>
         <NotionRenderer recordMap={recordMap} fullPage={false} darkMode={false} />

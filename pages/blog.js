@@ -20,7 +20,6 @@ export default function Blog({ recordMap }) {
   if (!recordMap) {
     return null;
   }
-
   return (
     <>
       <NotionRenderer recordMap={recordMap} fullPage={false} darkMode={false} />

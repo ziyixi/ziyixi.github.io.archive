@@ -40,7 +40,7 @@ function Social() {
         <WrapItem key="footer">
           <div style={{ whiteSpace: 'nowrap' }}>
             <Text fontSize="sm">
-              &copy; Ziyi Xi 2020, Build with{' '}
+              &copy; Ziyi Xi 2020-2021, Build with{' '}
               <LinkUI as={Link} href="https://nextjs.org/" color="purple.500" isExternal>
                 Next.js
               </LinkUI>
