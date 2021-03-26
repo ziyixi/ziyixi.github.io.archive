@@ -16,9 +16,6 @@ jobs:
       - name: run next command
         continue-on-error: true
         run: |
-          cd public/cv
-          wget https://github.com/ziyixi/cv/raw/master/cv.pdf -O cv.pdf
-          cd ../..
           yarn install
           yarn build
           yarn export
@@ -28,5 +25,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
-          user_name: 'ziyixi'
-          user_email: 'ziyixi@mail.ustc.edu.cn'
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          keep_files: true

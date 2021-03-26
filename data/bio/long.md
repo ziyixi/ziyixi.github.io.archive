@@ -1,3 +1,0 @@
-- Fine structure of the western Pacific slab and earthquake source relocation
-- Seismic imaging workflow automation
-- High performance computing and Heterogeneous computing

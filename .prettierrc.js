@@ -1,8 +1,10 @@
 module.exports = {
-  semi: true,
-  tabWidth: 2,
-  printWidth: 100,
+  // Change your rules accordingly to your coding style preferences.
+  // https://prettier.io/docs/en/options.html
+  semi: false,
+  trailingComma: "es5",
   singleQuote: true,
-  trailingComma: 'all',
-  jsxBracketSameLine: true,
+  printWidth: 100,
+  tabWidth: 4,
+  useTabs: false,
 };
