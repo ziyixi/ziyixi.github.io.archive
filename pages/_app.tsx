@@ -6,6 +6,7 @@ import { Box, Center } from '@chakra-ui/react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 // core styles shared by all of react-notion-x (required)
+import 'react-notion-x/src/styles.css'
 import '../css/custome-styles.css'
 // used for code syntax highlighting (optional)
 import 'prismjs/themes/prism-tomorrow.css'
