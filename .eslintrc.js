@@ -12,7 +12,7 @@ module.exports = {
     {
       files: ["**/*.ts", "**/*.tsx"],
       excludedFiles: ["public/pdf.worker.js"],
-      parser: ["@typescript-eslint/parser"],
+      parser: "@typescript-eslint/parser",
       settings: { react: { version: "detect" } },
       env: {
         browser: true,
