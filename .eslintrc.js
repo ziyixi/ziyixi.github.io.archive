@@ -11,7 +11,7 @@ module.exports = {
     // This configuration will apply only to TypeScript files
     {
       files: ["**/*.ts", "**/*.tsx"],
-      excludedFiles: ["public/pdf.worker.js"],
+      excludedFiles: [],
       parser: "@typescript-eslint/parser",
       settings: { react: { version: "detect" } },
       env: {

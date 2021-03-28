@@ -39,7 +39,7 @@ function Bio() {
                     </Container>
                 </>
             )}
-            <Button onClick={toggleBioLength}>
+            <Button onClick={toggleBioLength} bg="blue.200">
                 {' '}
                 {bioLength === 'short' ? 'Long' : 'Short'} bio{' '}
             </Button>

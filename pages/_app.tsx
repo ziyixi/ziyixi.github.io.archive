@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 />
             </Head>
             <ChakraProvider>
-                <Box bg="gray.50" minHeight="100vh">
+                <Box minHeight="100vh">
                     <Center>
                         <Box width={900} maxWidth="85vw" minHeight="100vh" pt="4rem" pb="4rem">
                             <Header />

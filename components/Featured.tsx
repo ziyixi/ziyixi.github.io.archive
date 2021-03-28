@@ -9,7 +9,7 @@ function Featured() {
                 {featuredData.map((item) => (
                     <Link href={item.url} key={item.title}>
                         <GridItem p="1rem" border="1px" borderColor="gray.300" borderRadius={5}>
-                            <Heading size="s" color="blue.500" mb="0.5rem">
+                            <Heading size="s" color="blue.700" mb="0.5rem">
                                 {' '}
                                 {item.medium} <Tag colorScheme="orange"> {item.lang} </Tag>{' '}
                             </Heading>

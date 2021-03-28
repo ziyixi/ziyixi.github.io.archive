@@ -34,7 +34,7 @@ function Header() {
                         <Heading as="h1" size="xl" textAlign={['center', 'left', 'left']}>
                             Ziyi Xi
                         </Heading>
-                        <Heading as="h2" size="l" color="gray.500">
+                        <Heading as="h2" size="l">
                             Ph.D. student in computational seismology
                         </Heading>
                     </Box>

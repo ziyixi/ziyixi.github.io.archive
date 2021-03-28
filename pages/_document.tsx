@@ -10,12 +10,22 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-                <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+                    <link
+                        rel="stylesheet"
+                        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+                    />
+                    <link
+                        rel="stylesheet"
+                        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+                    />
+                    <link rel="stylesheet" href="asset/rain-style.css"></link>
+                    <script src="https://cdn.jsdelivr.net/gh/SardineFish/raindrop-fx@master/bundle/index.js"></script>
                 </Head>
                 <body>
                     <Main />
+                    <canvas id="canvas"></canvas>
                     <NextScript />
+                    <script src="asset/rain-canvas-script.js"></script>
                 </body>
             </Html>
         )

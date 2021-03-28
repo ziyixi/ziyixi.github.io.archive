@@ -10,6 +10,7 @@ const Home: NextPage = () => {
             <Divider mt="2rem" mb="2rem" />
             <Featured />
             <Divider mt="2rem" mb="2rem" />
+            {/* <Rain background="/bg.png" position="fixed" top="0" bottom="0" left="0" right="0" /> */}
         </>
     )
 }
