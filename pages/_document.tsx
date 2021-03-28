@@ -18,7 +18,6 @@ class MyDocument extends Document {
                         rel="stylesheet"
                         href="https://fonts.googleapis.com/icon?family=Material+Icons"
                     />
-                    <link rel="stylesheet" href="asset/rain-style.css"></link>
                     <script src="https://cdn.jsdelivr.net/gh/SardineFish/raindrop-fx@master/bundle/index.js"></script>
                 </Head>
                 <body>
