@@ -7,3 +7,10 @@ div.notion-viewport{
   right: 50%;
   bottom: 50%;
 }
+
+div.notion-table {
+  width: 100%!important;
+  max-width: 100%!important;
+  align-self: center;
+  overflow: auto hidden;
+}

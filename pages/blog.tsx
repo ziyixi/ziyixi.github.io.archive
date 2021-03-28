@@ -1,6 +1,6 @@
 import React from 'react'
 import { NotionAPI } from 'notion-client'
-import { NotionRenderer } from 'react-notion-x'
+import { NotionRenderer, Collection, CollectionRow } from 'react-notion-x'
 import { ExtendedRecordMap } from 'notion-types'
 import notionInfo from '../data/notion'
 import { GetStaticProps } from 'next'
@@ -24,7 +24,15 @@ export default function Blog({ recordMap }: { recordMap: ExtendedRecordMap }) {
     }
     return (
         <>
-            <NotionRenderer recordMap={recordMap} fullPage={false} darkMode={false} />
+            <NotionRenderer
+                recordMap={recordMap}
+                fullPage={false}
+                darkMode={false}
+                components={{
+                    collection: Collection,
+                    collectionRow: CollectionRow,
+                }}
+            />
         </>
     )
 }

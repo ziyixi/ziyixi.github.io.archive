@@ -1,6 +1,6 @@
 import { parsePageId } from 'notion-utils'
 
-const pageId = parsePageId('https://www.notion.so/Blog-0bb1bc43834b47d3b9c13859b5e6cb80')
+const pageId = parsePageId('https://www.notion.so/Blog-ab370d5aef5744a18db5d1bf0ef56f52')
 const wikiId = parsePageId('https://www.notion.so/Wiki-d7523f7b60d04ad59427abea7168790c')
 const projectIds = [
     parsePageId(
