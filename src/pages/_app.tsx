@@ -9,9 +9,10 @@ import 'katex/dist/katex.min.css'
 // override notion page wrong front layer
 import '../styles/overrideNotionPage.css'
 
-import { Box, Center, ChakraProvider } from '@chakra-ui/react'
+import { Box, Center } from '@chakra-ui/react'
 
 import type { AppProps } from 'next/app'
+import { Chakra } from '../Chakra'
 import Footer from '../layouts/Footer'
 import Head from 'next/head'
 import Header from '../layouts/Header'
@@ -34,7 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
-      <ChakraProvider>
+      <Chakra cookies={pageProps.cookies}>
         <Box minHeight="100vh">
           <Center>
             <Box width={900} maxWidth="85vw" minHeight="100vh" pt="4rem" pb="4rem">
@@ -46,8 +47,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           </Center>
         </Box>
         <Footer />
-      </ChakraProvider>
+      </Chakra>
     </>
   )
 }
 export default MyApp
+
+// re-export the reusable `getServerSideProps` function
+export { getServerSideProps } from '../Chakra'
