@@ -21,6 +21,10 @@ const headItems: HeadItem[] = [
     path: '/talks',
   },
   {
+    name: 'Slides',
+    path: '/slides',
+  },
+  {
     name: 'Contacts',
     path: '/contacts',
   },

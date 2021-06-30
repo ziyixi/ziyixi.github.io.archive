@@ -4731,6 +4731,11 @@ react-focus-lock@2.5.0:
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
 
+react-google-slides@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/react-google-slides/-/react-google-slides-3.1.0.tgz#f84335a9591d11bc41b26ba0e352011a31c55286"
+  integrity sha512-ItH4GRv7H2q1MfzI472tY0eCzQNQeejs2QzJ3Z+e5z7NPenglxRtFSnBj/DuxYmQxdDZT/O0n08lXlYao8l4Lw==
+
 react-hotkeys-hook@^3.0.3:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/react-hotkeys-hook/-/react-hotkeys-hook-3.3.2.tgz#00730bda494ccf429a1693840fa2375405056ad1"
