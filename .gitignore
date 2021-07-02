@@ -38,3 +38,6 @@ yarn-error.log*
 
 # ignore development env
 .env.development
+
+# rss should be generated on github action
+/public/rss
