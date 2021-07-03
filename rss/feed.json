@@ -20,30 +20,10 @@
             }
         },
         {
-            "id": "https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd",
-            "url": "https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd",
-            "title": "Technique Detail of this website",
-            "date_modified": "2021-03-27T23:37:22.000Z",
-            "author": {
-                "name": "Ziyi Xi",
-                "url": "https://ziyixi.science/"
-            }
-        },
-        {
             "id": "https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c",
             "url": "https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c",
             "title": "Build ASDF library on stampede2 ",
             "date_modified": "2021-04-22T22:29:00.000Z",
-            "author": {
-                "name": "Ziyi Xi",
-                "url": "https://ziyixi.science/"
-            }
-        },
-        {
-            "id": "https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b",
-            "url": "https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b",
-            "title": "Build ADIOS2 library on stampede2",
-            "date_modified": "2021-04-22T23:12:00.000Z",
             "author": {
                 "name": "Ziyi Xi",
                 "url": "https://ziyixi.science/"
@@ -76,6 +56,26 @@
             "title": "Ideas on running FWI in Bridge-2",
             "summary": "The new Bridge-2 allocation is available for our group to run the HPC jobs. Here I summarize what we should know before starting anything.",
             "date_modified": "2021-06-30T20:02:00.000Z",
+            "author": {
+                "name": "Ziyi Xi",
+                "url": "https://ziyixi.science/"
+            }
+        },
+        {
+            "id": "https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b",
+            "url": "https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b",
+            "title": "Build ADIOS2 library on stampede2",
+            "date_modified": "2021-04-22T23:12:00.000Z",
+            "author": {
+                "name": "Ziyi Xi",
+                "url": "https://ziyixi.science/"
+            }
+        },
+        {
+            "id": "https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd",
+            "url": "https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd",
+            "title": "Technique Detail of this website",
+            "date_modified": "2021-03-27T23:37:22.000Z",
             "author": {
                 "name": "Ziyi Xi",
                 "url": "https://ziyixi.science/"
