@@ -4,16 +4,45 @@
         <title>Ziyi's Blog</title>
         <link>https://ziyixi.science</link>
         <description>Share Ideas, Document Solutions.</description>
-        <lastBuildDate>Tue, 13 Jul 2021 06:01:44 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jul 2021 06:28:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>All rights reserved 2021, Ziyi Xi</copyright>
         <item>
-            <title><![CDATA[Compile h5py with the intel compiler]]></title>
-            <link>https://ziyixi.science/posts/357433d8-f0a1-48bf-aea0-004c15b47b2b</link>
-            <guid>https://ziyixi.science/posts/357433d8-f0a1-48bf-aea0-004c15b47b2b</guid>
-            <pubDate>Wed, 12 May 2021 19:39:00 GMT</pubDate>
+            <title><![CDATA[Technique Detail of this website]]></title>
+            <link>https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd</link>
+            <guid>https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd</guid>
+            <pubDate>Sat, 27 Mar 2021 23:37:22 GMT</pubDate>
+            <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
+        </item>
+        <item>
+            <title><![CDATA[Build ADIOS2 library on stampede2]]></title>
+            <link>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</link>
+            <guid>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</guid>
+            <pubDate>Thu, 22 Apr 2021 23:12:00 GMT</pubDate>
+            <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
+        </item>
+        <item>
+            <title><![CDATA[Build ASDF library on stampede2 ]]></title>
+            <link>https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c</link>
+            <guid>https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c</guid>
+            <pubDate>Thu, 22 Apr 2021 22:29:00 GMT</pubDate>
+            <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
+        </item>
+        <item>
+            <title><![CDATA[Compile Specfem3D Globe with ASDF and ADIOS2 on stampede2]]></title>
+            <link>https://ziyixi.science/posts/285c4017-568b-4f63-bb1a-1c0bd0a9a709</link>
+            <guid>https://ziyixi.science/posts/285c4017-568b-4f63-bb1a-1c0bd0a9a709</guid>
+            <pubDate>Fri, 23 Apr 2021 01:17:00 GMT</pubDate>
+            <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
+        </item>
+        <item>
+            <title><![CDATA[Links about the CS knowledges]]></title>
+            <link>https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978</link>
+            <guid>https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978</guid>
+            <pubDate>Fri, 02 Jul 2021 02:34:00 GMT</pubDate>
+            <description><![CDATA[In this article, I record some links about the CS technical tutorials/documents/articles.]]></description>
             <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
         </item>
         <item>
@@ -33,39 +62,10 @@
             <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
         </item>
         <item>
-            <title><![CDATA[Technique Detail of this website]]></title>
-            <link>https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd</link>
-            <guid>https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd</guid>
-            <pubDate>Sat, 27 Mar 2021 23:37:22 GMT</pubDate>
-            <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
-        </item>
-        <item>
-            <title><![CDATA[Build ASDF library on stampede2 ]]></title>
-            <link>https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c</link>
-            <guid>https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c</guid>
-            <pubDate>Thu, 22 Apr 2021 22:29:00 GMT</pubDate>
-            <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
-        </item>
-        <item>
-            <title><![CDATA[Build ADIOS2 library on stampede2]]></title>
-            <link>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</link>
-            <guid>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</guid>
-            <pubDate>Thu, 22 Apr 2021 23:12:00 GMT</pubDate>
-            <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
-        </item>
-        <item>
-            <title><![CDATA[Compile Specfem3D Globe with ASDF and ADIOS2 on stampede2]]></title>
-            <link>https://ziyixi.science/posts/285c4017-568b-4f63-bb1a-1c0bd0a9a709</link>
-            <guid>https://ziyixi.science/posts/285c4017-568b-4f63-bb1a-1c0bd0a9a709</guid>
-            <pubDate>Fri, 23 Apr 2021 01:17:00 GMT</pubDate>
-            <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
-        </item>
-        <item>
-            <title><![CDATA[Links about the CS knowledges]]></title>
-            <link>https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978</link>
-            <guid>https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978</guid>
-            <pubDate>Fri, 02 Jul 2021 02:34:00 GMT</pubDate>
-            <description><![CDATA[In this article, I record some links about the CS technical tutorials/documents/articles.]]></description>
+            <title><![CDATA[Compile h5py with the intel compiler]]></title>
+            <link>https://ziyixi.science/posts/357433d8-f0a1-48bf-aea0-004c15b47b2b</link>
+            <guid>https://ziyixi.science/posts/357433d8-f0a1-48bf-aea0-004c15b47b2b</guid>
+            <pubDate>Wed, 12 May 2021 19:39:00 GMT</pubDate>
             <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
         </item>
     </channel>
