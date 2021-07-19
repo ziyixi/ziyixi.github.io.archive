@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ziyixi.science</id>
     <title>Ziyi's Blog</title>
-    <updated>2021-07-19T02:52:57.420Z</updated>
+    <updated>2021-07-19T03:00:23.573Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Ziyi Xi</name>
@@ -13,23 +13,6 @@
     <link rel="self" href="https://ziyixi.science/rss/atom.xml"/>
     <subtitle>Share Ideas, Document Solutions.</subtitle>
     <rights>All rights reserved 2021, Ziyi Xi</rights>
-    <entry>
-        <title type="html"><![CDATA[Links about the CS knowledges]]></title>
-        <id>https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978</id>
-        <link href="https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978"/>
-        <updated>2021-07-02T02:34:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, I record some links about the CS technical tutorials/documents/articles.]]></summary>
-        <author>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </author>
-        <contributor>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </contributor>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Compile h5py with the intel compiler]]></title>
         <id>https://ziyixi.science/posts/357433d8-f0a1-48bf-aea0-004c15b47b2b</id>
@@ -63,10 +46,11 @@
         </contributor>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Build ASDF library on stampede2 ]]></title>
-        <id>https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c</id>
-        <link href="https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c"/>
-        <updated>2021-04-22T22:29:00.000Z</updated>
+        <title type="html"><![CDATA[Ideas on running FWI in Bridge-2]]></title>
+        <id>https://ziyixi.science/posts/29042fa0-1e55-4a0d-98ce-31825a847a79</id>
+        <link href="https://ziyixi.science/posts/29042fa0-1e55-4a0d-98ce-31825a847a79"/>
+        <updated>2021-06-30T20:02:00.000Z</updated>
+        <summary type="html"><![CDATA[The new Bridge-2 allocation is available for our group to run the HPC jobs. Here I summarize what we should know before starting anything.]]></summary>
         <author>
             <name>Ziyi Xi</name>
             <email>xiziyi2015@gmail.com</email>
@@ -96,27 +80,10 @@
         </contributor>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ideas on running FWI in Bridge-2]]></title>
-        <id>https://ziyixi.science/posts/29042fa0-1e55-4a0d-98ce-31825a847a79</id>
-        <link href="https://ziyixi.science/posts/29042fa0-1e55-4a0d-98ce-31825a847a79"/>
-        <updated>2021-06-30T20:02:00.000Z</updated>
-        <summary type="html"><![CDATA[The new Bridge-2 allocation is available for our group to run the HPC jobs. Here I summarize what we should know before starting anything.]]></summary>
-        <author>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </author>
-        <contributor>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </contributor>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Build ADIOS2 library on stampede2]]></title>
-        <id>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</id>
-        <link href="https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b"/>
-        <updated>2021-04-22T23:12:00.000Z</updated>
+        <title type="html"><![CDATA[Build ASDF library on stampede2 ]]></title>
+        <id>https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c</id>
+        <link href="https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c"/>
+        <updated>2021-04-22T22:29:00.000Z</updated>
         <author>
             <name>Ziyi Xi</name>
             <email>xiziyi2015@gmail.com</email>
@@ -133,6 +100,39 @@
         <id>https://ziyixi.science/posts/285c4017-568b-4f63-bb1a-1c0bd0a9a709</id>
         <link href="https://ziyixi.science/posts/285c4017-568b-4f63-bb1a-1c0bd0a9a709"/>
         <updated>2021-04-23T01:17:00.000Z</updated>
+        <author>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </author>
+        <contributor>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links about the CS knowledges]]></title>
+        <id>https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978</id>
+        <link href="https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978"/>
+        <updated>2021-07-02T02:34:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, I record some links about the CS technical tutorials/documents/articles.]]></summary>
+        <author>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </author>
+        <contributor>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build ADIOS2 library on stampede2]]></title>
+        <id>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</id>
+        <link href="https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b"/>
+        <updated>2021-04-22T23:12:00.000Z</updated>
         <author>
             <name>Ziyi Xi</name>
             <email>xiziyi2015@gmail.com</email>
