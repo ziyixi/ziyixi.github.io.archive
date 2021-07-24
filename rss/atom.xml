@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ziyixi.science</id>
     <title>Ziyi's Blog</title>
-    <updated>2021-07-24T23:19:30.593Z</updated>
+    <updated>2021-07-24T23:32:37.551Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Ziyi Xi</name>
@@ -30,10 +30,76 @@
         </contributor>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Technique Detail of this website]]></title>
+        <id>https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd</id>
+        <link href="https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd"/>
+        <updated>2021-03-27T23:37:22.000Z</updated>
+        <author>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </author>
+        <contributor>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </contributor>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Build ADIOS2 library on stampede2]]></title>
         <id>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</id>
         <link href="https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b"/>
         <updated>2021-04-22T23:12:00.000Z</updated>
+        <author>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </author>
+        <contributor>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Set up the initial model for the azimuthal anisotropy inversion in Specfem3D globe]]></title>
+        <id>https://ziyixi.science/posts/a6211ba0-d887-4989-99a7-e735c801534a</id>
+        <link href="https://ziyixi.science/posts/a6211ba0-d887-4989-99a7-e735c801534a"/>
+        <updated>2021-07-08T17:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Here I introduce the method to convert the model GLL_tiso to GLL_azi in Specfem3D globe.]]></summary>
+        <author>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </author>
+        <contributor>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links about the CS knowledges]]></title>
+        <id>https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978</id>
+        <link href="https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978"/>
+        <updated>2021-07-02T02:34:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, I record some links about the CS technical tutorials/documents/articles.]]></summary>
+        <author>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </author>
+        <contributor>
+            <name>Ziyi Xi</name>
+            <email>xiziyi2015@gmail.com</email>
+            <uri>https://ziyixi.science/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Compile Specfem3D Globe with ASDF and ADIOS2 on stampede2]]></title>
+        <id>https://ziyixi.science/posts/285c4017-568b-4f63-bb1a-1c0bd0a9a709</id>
+        <link href="https://ziyixi.science/posts/285c4017-568b-4f63-bb1a-1c0bd0a9a709"/>
+        <updated>2021-04-23T01:17:00.000Z</updated>
         <author>
             <name>Ziyi Xi</name>
             <email>xiziyi2015@gmail.com</email>
@@ -67,72 +133,6 @@
         <link href="https://ziyixi.science/posts/29042fa0-1e55-4a0d-98ce-31825a847a79"/>
         <updated>2021-06-30T20:02:00.000Z</updated>
         <summary type="html"><![CDATA[The new Bridge-2 allocation is available for our group to run the HPC jobs. Here I summarize what we should know before starting anything.]]></summary>
-        <author>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </author>
-        <contributor>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </contributor>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Set up the initial model for the azimuthal anisotropy inversion in Specfem3D globe]]></title>
-        <id>https://ziyixi.science/posts/a6211ba0-d887-4989-99a7-e735c801534a</id>
-        <link href="https://ziyixi.science/posts/a6211ba0-d887-4989-99a7-e735c801534a"/>
-        <updated>2021-07-08T17:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Here I introduce the method to convert the model GLL_tiso to GLL_azi in Specfem3D globe.]]></summary>
-        <author>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </author>
-        <contributor>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </contributor>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compile Specfem3D Globe with ASDF and ADIOS2 on stampede2]]></title>
-        <id>https://ziyixi.science/posts/285c4017-568b-4f63-bb1a-1c0bd0a9a709</id>
-        <link href="https://ziyixi.science/posts/285c4017-568b-4f63-bb1a-1c0bd0a9a709"/>
-        <updated>2021-04-23T01:17:00.000Z</updated>
-        <author>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </author>
-        <contributor>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </contributor>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technique Detail of this website]]></title>
-        <id>https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd</id>
-        <link href="https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd"/>
-        <updated>2021-03-27T23:37:22.000Z</updated>
-        <author>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </author>
-        <contributor>
-            <name>Ziyi Xi</name>
-            <email>xiziyi2015@gmail.com</email>
-            <uri>https://ziyixi.science/</uri>
-        </contributor>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links about the CS knowledges]]></title>
-        <id>https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978</id>
-        <link href="https://ziyixi.science/posts/1a96e2a2-698b-4a76-b6a8-f64831c1c978"/>
-        <updated>2021-07-02T02:34:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, I record some links about the CS technical tutorials/documents/articles.]]></summary>
         <author>
             <name>Ziyi Xi</name>
             <email>xiziyi2015@gmail.com</email>
