@@ -4,16 +4,17 @@
         <title>Ziyi's Blog</title>
         <link>https://ziyixi.science</link>
         <description>Share Ideas, Document Solutions.</description>
-        <lastBuildDate>Mon, 26 Jul 2021 10:43:50 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jul 2021 11:03:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>All rights reserved 2021, Ziyi Xi</copyright>
         <item>
-            <title><![CDATA[Build ADIOS2 library on stampede2]]></title>
-            <link>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</link>
-            <guid>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</guid>
-            <pubDate>Thu, 22 Apr 2021 23:12:00 GMT</pubDate>
+            <title><![CDATA[Ideas on running FWI in Bridge-2]]></title>
+            <link>https://ziyixi.science/posts/29042fa0-1e55-4a0d-98ce-31825a847a79</link>
+            <guid>https://ziyixi.science/posts/29042fa0-1e55-4a0d-98ce-31825a847a79</guid>
+            <pubDate>Wed, 30 Jun 2021 20:02:00 GMT</pubDate>
+            <description><![CDATA[The new Bridge-2 allocation is available for our group to run the HPC jobs. Here I summarize what we should know before starting anything.]]></description>
             <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
         </item>
         <item>
@@ -40,18 +41,10 @@
             <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
         </item>
         <item>
-            <title><![CDATA[Ideas on running FWI in Bridge-2]]></title>
-            <link>https://ziyixi.science/posts/29042fa0-1e55-4a0d-98ce-31825a847a79</link>
-            <guid>https://ziyixi.science/posts/29042fa0-1e55-4a0d-98ce-31825a847a79</guid>
-            <pubDate>Wed, 30 Jun 2021 20:02:00 GMT</pubDate>
-            <description><![CDATA[The new Bridge-2 allocation is available for our group to run the HPC jobs. Here I summarize what we should know before starting anything.]]></description>
-            <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
-        </item>
-        <item>
-            <title><![CDATA[Technique Detail of this website]]></title>
-            <link>https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd</link>
-            <guid>https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd</guid>
-            <pubDate>Sat, 27 Mar 2021 23:37:22 GMT</pubDate>
+            <title><![CDATA[Build ADIOS2 library on stampede2]]></title>
+            <link>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</link>
+            <guid>https://ziyixi.science/posts/bf5005e7-7d64-4ee9-a362-1a53a404918b</guid>
+            <pubDate>Thu, 22 Apr 2021 23:12:00 GMT</pubDate>
             <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
         </item>
         <item>
@@ -59,6 +52,13 @@
             <link>https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c</link>
             <guid>https://ziyixi.science/posts/ed4ff7cf-35db-46fd-ba49-04e7b76b047c</guid>
             <pubDate>Thu, 22 Apr 2021 22:29:00 GMT</pubDate>
+            <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
+        </item>
+        <item>
+            <title><![CDATA[Technique Detail of this website]]></title>
+            <link>https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd</link>
+            <guid>https://ziyixi.science/posts/7b868910-8732-4b19-a22b-85ccd35cecdd</guid>
+            <pubDate>Sat, 27 Mar 2021 23:37:22 GMT</pubDate>
             <author>xiziyi2015@gmail.com (Ziyi Xi)</author>
         </item>
         <item>
