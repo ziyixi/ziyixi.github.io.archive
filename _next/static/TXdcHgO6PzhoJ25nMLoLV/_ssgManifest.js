@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fblog","\u002Fgoogle-slides\u002F[shareId]","\u002Fnotion-page\u002F[pageId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
